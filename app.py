@@ -9,17 +9,12 @@ import numpy as np
 from sqlalchemy import create_engine
 import os
 
-#my_db.     = os.environ.get('DB_NAME')
-#my_user    = os.environ.get('DB_USER')
-#my_passwd  = os.environ.get('DB_USER_PASSWORD')
-#my_db_port = os.environ.get('DB_PORT')
-#my_host_endpoint= = os.environ.get('DB_ENDPOINT_HOST')
+my_db      = os.environ.get('DB_NAME')
+my_user    = os.environ.get('DB_USER')
+my_passwd  = os.environ.get('DB_USER_PASSWORD')
+my_db_port = os.environ.get('DB_PORT')
+my_host_endpoint= = os.environ.get('DB_ENDPOINT_HOST')
 
-my_db       = "strategy"
-my_user     = "postgres"
-my_passwd   = "DArnx9RougequIuPS0b0"
-my_db_port  = "5432"
-my_rds_host_endpoint= "strategy.curgbcdbqwzb.us-east-1.rds.amazonaws.com"
 sql_conn_str='postgresql://'+my_user+':'+my_passwd+'@'+my_rds_host_endpoint+':'+my_db_port+'/'+my_db
 
 #Connect to PostgreSQL database
