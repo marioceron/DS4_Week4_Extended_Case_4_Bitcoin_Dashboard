@@ -135,6 +135,7 @@ def balance_plot(exchange, leverage, start_date, end_date):
      ) 
     return data
 
+
 app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/uditagarwal/pen/oNvwKNP.css', 'https://codepen.io/uditagarwal/pen/YzKbqyV.css'])
 app.config.suppress_callback_exceptions = True
 
@@ -450,5 +451,7 @@ def update_line_plot_balance(exchange, leverage, start_date, end_date):
 
 
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+#if __name__ == "__main__":
+#    app.run_server(debug=True)
+if __name__ == '__main__':
+    app.run_server(debug=True, host= '0.0.0.0')
