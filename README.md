@@ -9,3 +9,8 @@ Intro:
 As part of a crypto trading desk the analyzing an automated Bitcoin trading strategy is requested. 
 The creator of the strategy has made historical data of the strategy available for this exercise. 
 The task is to make an interactive dashboard that the firm can use to visualize the strategy's trades and performance.
+
+Dashboard Generated:
+![Dashboard Image 1](img1.png)
+
+![Dashboard Image 2](img2.png)
