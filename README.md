@@ -11,6 +11,7 @@ The creator of the strategy has made historical data of the strategy available f
 The task is to make an interactive dashboard that the firm can use to visualize the strategy's trades and performance.
 
 Dashboard Generated:
-![Dashboard Image 1](img1.png)
 
 ![Dashboard Image 2](img2.png)
+
+![Dashboard Image 1](img1.png)
