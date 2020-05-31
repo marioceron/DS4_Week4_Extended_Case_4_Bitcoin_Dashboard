@@ -12,11 +12,17 @@ The task is to make an interactive dashboard that the firm can use to visualize 
 
 
 # Source Files:
+
 The following files are included in the project:
+
 app.py - API using Flask; the Dashboard Python code using Dash and databse connection.
+
 db_sql/database.sql : SQL for create database structure: trades table, database: stragegy, user: strategy_user
-db_sql/aggr.sql:  SQL for Fill the trades table
+
+db_sql/aggr.sql:  SQL for Fill the trades table.
+
 requirements.txt: Requirements file generated for use on EC2 AWS instance.
+
 nohup.txt : out file proof of running
 img1.png, im2.png: Test Dashboard images.
 
