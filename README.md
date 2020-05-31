@@ -1,4 +1,4 @@
-#Analyzing an Automated Bitcoin Trading Strategy 
+# Analyzing an Automated Bitcoin Trading Strategy 
 
 DataScience for All (DS4)- Week 4 - Extended Case 4 - Marioceron
 
